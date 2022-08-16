@@ -1,5 +1,7 @@
 <script setup>
   import HeaderView from './components/Header.vue';
+  import ContactPage from './components/ContactPage.vue';
+
   import GithubIcon from './components/icons/GithubIcon.vue';
   import { ref, onMounted } from 'vue';
 
@@ -21,7 +23,11 @@
       display: flex;
       -webkit-flex-direction: row;
     flex-direction: row;
+  }
 
+  #marginauto {
+    margin: auto;
+    display: block;
   }
 </style>
 
@@ -34,9 +40,6 @@
       <h1 class="display-4 font-weight-normal text-center">David Aasa</h1>
       <p class="lead font-weight-normal text-center">An up and coming full stack developer.</p>
       <div class="col col-md-8 mx-auto">
-        <a href="https://github.com/ionxccd" class="bi bi-github text-center col-sm-4" target="_blank">
-          <GithubIcon></GithubIcon>
-        </a>
       </div>
     </div>
   </div>
@@ -46,24 +49,50 @@
       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ficon-library.com%2Fimages%2Fdefault-profile-icon%2Fdefault-profile-icon-16.jpg&f=1&nofb=1"/>
       </div>
       <div class="col p-4 d-flex flex-column position-static">
-        <h2 style="color: #000;" class="col-sm-4 justify-content-center d-block">About Me</h2>
+        <h2 style="color: #000;" class="col-sm-4 justify-content-center d-block text-white">About Me</h2>
         <hr />
         <h4>Hello, my name is David. I am a 16yo self-taught programmer. </h4>
       </div>
   </div>
-  <div class="col-md-5 p-lg-5 w-auto text-white justify-content-center" style="background-color:#1e1e1e" id="portoflio" tabindex="2">
+  <div class="col-md-5 p-lg-5 w-auto text-white justify-content-center" style="background-color:#1e1e1e" id="portofilo" tabindex="2">
   <div class="row g-0 overflow-hidden flex-md-row row d-flex justify-content-center p-lg-5">
-    <h3 class="text-center">My Portofilo</h3>
-    <h4 class="text-center">Langauges</h4>
-    <div class='row align-items-start'>
-      <div class="col">
-      <img src="src\images\nodejs.png" width=auto height="100"/>
+    <h2 class="text-center mb-3">My Portofilo</h2>
+    <h4 class="text-center mb-5">Langauges</h4>
+    <div class='row justify-content-around w-200'>
+      <div class="col-3">
+        <img src="src\images\nodejs.png" width=auto height="100" id="marginauto"/>
       </div>
-      <div class="col">
-        <img src="src\images\python.png" width=auto height="100"/>
+      <div class="col-3">
+        <img src="src\images\python.png" width=auto height="100" id="marginauto"/>
+      </div>
+      <div class="col-3">
+        <img src="src\images\mysql.png" width=auto height="100" id="marginauto"/>
+      </div>
+      <div class="col-3">
+        <img src="src\images\react.png" width=auto height="100" id="marginauto"/>
       </div>
     </div>
-    <h4>Projects</h4>
+    <h4 class="text-center g-5">Projects</h4>
+    <!-- !Embed is a bit laggy-->
+    <!-- <div class='row justify-content-around w-200'>
+      <div class="col-4">
+        <embed src="https://bit.ly/3plwgQh" class="rounded" style="width:500px; height: 300px;"/>
+      </div>
+      <div class="col-4">
+        <embed src="https://play.google.com/store/apps/details?id=com.ionxccd.PocketNotes" 
+        style="width:500px; height: 300px;" class="rounded"/>
+      </div>
+    </div> -->
+    <!-- <div class='row justify-content-around w-200'>
+      <div class="col-4">
+        <embed src="https://rapidapi.com/ionxccd/api/open-library2" class="rounded" style="width:500px; height: 300px;"/>
+      </div>
+      <div class="col-4">
+        <embed src="https://rapidapi.com/ionxccd/api/today-in-history/" 
+        style="width:500px; height: 300px;" class="rounded"/>
+      </div>
+    </div> -->
+    <ContactPage></ContactPage>
   </div>
   </div>
 </template>
