@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/Header.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1660519488062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1660519488062,
+            "name": "Commit-0",
+            "content": "<template>\n<header class=\"site-header sticky-top\">\n    <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark justify-content-between\">\n    <a class=\"navbar-brand w-5 p-lg-2\" style=\"font-weight:100;\" href=\"#\"><b style=\"font-weight:500;\">A</b>asa</a>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n      <ul class=\"navbar-nav float-right\">\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"#\">Features</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"#\">Pricing</a>\n        </li>\n      </ul>\n    </div>\n  </nav>\n  </header>\n</template>"
+        }
+    ]
+}

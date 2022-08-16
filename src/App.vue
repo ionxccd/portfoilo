@@ -1,54 +1,69 @@
-<script>
+<script setup>
+  import HeaderView from './components/Header.vue';
+  import GithubIcon from './components/icons/GithubIcon.vue';
+  import { ref, onMounted } from 'vue';
 
+  const count = ref(0)
+
+  function increment() {
+    count.value++
+    console.log(count.value);
+  }
+
+  onMounted(() => {
+    console.log(`The initial count is ${count.value}.`)
+  })
 </script>
 
+<style>
+  .socialContainer{
+    display: -webkit-flex;
+      display: flex;
+      -webkit-flex-direction: row;
+    flex-direction: row;
+
+  }
+</style>
+
 <template>
-  <header class="site-header sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
-    <a class="navbar-brand w-5 p-lg-2" href="#">Navbar</a>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav float-right">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  </header>
-  <div class="col-md-5 p-lg-5 w-100 text-white" style="background-color:#1e1e1e;">
-    <div class="col-md-5 p-lg-5 mx-auto my-5 w-100">
+  <HeaderView></HeaderView>
+    <div class="col-md-5 p-lg-5 w-100 text-white" id="home" style="background-color:#1e1e1e;" tabindex="0">
+    <div class="col-md-4 p-lg-5 mx-auto my-5 w-1">
         <img class="img-thumbnail rounded-circle mx-auto d-block justify-content-center" width="200" height="200" style="align-content: center;"
         src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ficon-library.com%2Fimages%2Fdefault-profile-icon%2Fdefault-profile-icon-16.jpg&f=1&nofb=1"/>
       <h1 class="display-4 font-weight-normal text-center">David Aasa</h1>
       <p class="lead font-weight-normal text-center">An up and coming full stack developer.</p>
-      <div class="d-block justify-content-center" style="flex-direction: column;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" style="display: block;margin: auto"
-          fill="currentColor" class="bi bi-github text-center" viewBox="0 0 16 16">
-          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" style="display: block;margin: auto"
-          fill="currentColor" class="bi bi-github text-center" viewBox="0 0 16 16">
-          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-        </svg>
+      <div class="col col-md-8 mx-auto">
+        <a href="https://github.com/ionxccd" class="bi bi-github text-center col-sm-4" target="_blank">
+          <GithubIcon></GithubIcon>
+        </a>
       </div>
     </div>
   </div>
-  <div class="col-md-5 p-lg-5 mx-auto my-5 w-100">
-    <h1 class="display-4 font-weight-normal">Punny headline</h1>
-    <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>
-    <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+  <div class="row g-0 flex-md-row shadow-sm h-md-300 position-relative p-lg-5 text-white" style="background-color:#1e1e1e" id="about" tabindex="1">
+      <div class="col-auto d-none d-lg-block">
+        <img class="bd-placeholder-img" width="400" height="600" style="align-content: center;"
+      src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ficon-library.com%2Fimages%2Fdefault-profile-icon%2Fdefault-profile-icon-16.jpg&f=1&nofb=1"/>
+      </div>
+      <div class="col p-4 d-flex flex-column position-static">
+        <h2 style="color: #000;" class="col-sm-4 justify-content-center d-block">About Me</h2>
+        <hr />
+        <h4>Hello, my name is David. I am a 16yo self-taught programmer. </h4>
+      </div>
   </div>
-  <div class="col-md-5 p-lg-5 mx-auto my-5 w-100" id="#about">
-    <h1 class="display-4 font-weight-normal">Punny headline</h1>
-    <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>
-    <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+  <div class="col-md-5 p-lg-5 w-auto text-white justify-content-center" style="background-color:#1e1e1e" id="portoflio" tabindex="2">
+  <div class="row g-0 overflow-hidden flex-md-row row d-flex justify-content-center p-lg-5">
+    <h3 class="text-center">My Portofilo</h3>
+    <h4 class="text-center">Langauges</h4>
+    <div class='row align-items-start'>
+      <div class="col">
+      <img src="src\images\nodejs.png" width=auto height="100"/>
+      </div>
+      <div class="col">
+        <img src="src\images\python.png" width=auto height="100"/>
+      </div>
+    </div>
+    <h4>Projects</h4>
   </div>
-  <div class="product-device box-shadow d-none d-md-block"></div>
-  <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+  </div>
 </template>
