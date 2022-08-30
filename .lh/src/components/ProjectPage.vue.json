@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/components/ProjectPage.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1661816064421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1661816165120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,21 @@\n <template>\r\n-    <div class='row justify-content-around w-200'>\r\n-      <div class=\"col-3\">\r\n-        <img src=\"src\\images\\nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <!-- !Embed is a bit laggy-->\r\n+        <div class='row justify-content-around w-200'>\r\n+      <div class=\"col-4\">\r\n+        <embed src=\"https://bit.ly/3plwgQh\" class=\"rounded\" style=\"width:500px; height: 300px;\"/>\r\n       </div>\r\n-      <div class=\"col-3\">\r\n-        <img src=\"src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+      <div class=\"col-4\">\r\n+        <embed src=\"https://play.google.com/store/apps/details?id=com.ionxccd.PocketNotes\" \r\n+        style=\"width:500px; height: 300px;\" class=\"rounded\"/>\r\n       </div>\r\n-      <div class=\"col-3\">\r\n-        <img src=\"src\\images\\mysql.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+    </div>\r\n+    <div class='row justify-content-around w-200 mb-20'>\r\n+      <div class=\"col-4\">\r\n+        <embed src=\"https://rapidapi.com/ionxccd/api/open-library2\" class=\"rounded\" style=\"width:500px; height: 300px;\"/>\r\n       </div>\r\n-      <div class=\"col-3\">\r\n-        <img src=\"src\\images\\react.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+      <div class=\"col-4\">\r\n+        <embed src=\"https://rapidapi.com/ionxccd/api/today-in-history/\" \r\n+        style=\"width:500px; height: 300px;\" class=\"rounded\"/>\r\n       </div>\r\n     </div>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1661876549888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,12 @@\n+<script setup>\r\n+  $('.alert').alert();\r\n+</script>\r\n+\r\n <template>\r\n+      <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\r\n+        <span aria-hidden=\"true\">&times;</span>\r\n+      </button>\r\n         <!-- !Embed is a bit laggy-->\r\n         <div class='row justify-content-around w-200'>\r\n       <div class=\"col-4\">\r\n         <embed src=\"https://bit.ly/3plwgQh\" class=\"rounded\" style=\"width:500px; height: 300px;\"/>\r\n"
+                },
+                {
+                    "date": 1661876571031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n-<script setup>\r\n+<!-- <script setup>\r\n   $('.alert').alert();\r\n-</script>\r\n+</script> -->\r\n \r\n <template>\r\n       <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\r\n         <span aria-hidden=\"true\">&times;</span>\r\n"
+                },
+                {
+                    "date": 1661876578951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,9 @@\n   $('.alert').alert();\r\n </script> -->\r\n \r\n <template>\r\n-      <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\r\n-        <span aria-hidden=\"true\">&times;</span>\r\n-      </button>\r\n+\r\n         <!-- !Embed is a bit laggy-->\r\n         <div class='row justify-content-around w-200'>\r\n       <div class=\"col-4\">\r\n         <embed src=\"https://bit.ly/3plwgQh\" class=\"rounded\" style=\"width:500px; height: 300px;\"/>\r\n"
+                },
+                {
+                    "date": 1661876592621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,5 @@\n-<!-- <script setup>\r\n-  $('.alert').alert();\r\n-</script> -->\r\n-\r\n <template>\r\n-\r\n         <!-- !Embed is a bit laggy-->\r\n         <div class='row justify-content-around w-200'>\r\n       <div class=\"col-4\">\r\n         <embed src=\"https://bit.ly/3plwgQh\" class=\"rounded\" style=\"width:500px; height: 300px;\"/>\r\n"
+                }
+            ],
+            "date": 1661816064421,
+            "name": "Commit-0",
+            "content": "<template>\r\n    <div class='row justify-content-around w-200'>\r\n      <div class=\"col-3\">\r\n        <img src=\"src\\images\\nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n      </div>\r\n      <div class=\"col-3\">\r\n        <img src=\"src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n      </div>\r\n      <div class=\"col-3\">\r\n        <img src=\"src\\images\\mysql.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n      </div>\r\n      <div class=\"col-3\">\r\n        <img src=\"src\\images\\react.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n      </div>\r\n    </div>\r\n</template>"
+        }
+    ]
+}

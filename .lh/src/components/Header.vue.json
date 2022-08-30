@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 30,
+            "activePatchIndex": 34,
             "patches": [
                 {
                     "date": 1660519488062,
@@ -128,6 +128,22 @@
                 {
                     "date": 1660630192371,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,8 @@\n               <a class=\"nav-link\" href=\"#portofilo\">My Portofilo</a>\n             </li>\n             <a href=\"https://github.com/ionxccd\" class=\"text-white\" target=\"_blank\"><GithubIcon/></a>\n           </ul>\n-        <a href=\"https://github.com/ionxccd\" class=\"text-white\" target=\"_blank\"><GithubIcon/></a>\n       </div>\n     </nav>\n   </header>\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1661109845270,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n <template>\n <header class=\"site-header sticky-top\">\n     <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark justify-content-between\">\n-      <a class=\"navbar-brand w-5 mx-2\" style=\"font-weight:100;\" href=\"#\"><b style=\"font-weight:500;\">A</b>asa</a>\n+      <a class=\"navbar-brand w-5 mx-3\" style=\"font-weight:100;\" href=\"#\"><b style=\"font-weight:500;\">A</b>asa</a>\n       <div class=\"collapse navbar-collapse d-flex flex-row-reverse\" id=\"navbarNav\">\n           <ul class=\"navbar-nav float-right mx-3\">\n             <li class=\"nav-item active\">\n               <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>\n"
+                },
+                {
+                    "date": 1661109897790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n <template>\n <header class=\"site-header sticky-top\">\n     <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark justify-content-between\">\n-      <a class=\"navbar-brand w-5 mx-3\" style=\"font-weight:100;\" href=\"#\"><b style=\"font-weight:500;\">A</b>asa</a>\n+      <a class=\"navbar-brand w-5 mx-2\" style=\"font-weight:100;\" href=\"#\"><b style=\"font-weight:500;\">A</b>asa</a>\n       <div class=\"collapse navbar-collapse d-flex flex-row-reverse\" id=\"navbarNav\">\n           <ul class=\"navbar-nav float-right mx-3\">\n             <li class=\"nav-item active\">\n               <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>\n"
+                },
+                {
+                    "date": 1661819172567,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,21 +4,24 @@\n \n <template>\n <header class=\"site-header sticky-top\">\n     <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark justify-content-between\">\n-      <a class=\"navbar-brand w-5 mx-2\" style=\"font-weight:100;\" href=\"#\"><b style=\"font-weight:500;\">A</b>asa</a>\n+      <a class=\"navbar-brand w-5 mx-3\" style=\"font-weight:100;\" href=\"#\"><b style=\"font-weight:500;\">A</b>asa</a>\n       <div class=\"collapse navbar-collapse d-flex flex-row-reverse\" id=\"navbarNav\">\n           <ul class=\"navbar-nav float-right mx-3\">\n             <li class=\"nav-item active\">\n               <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>\n             </li>\n             <li class=\"nav-item\">\n               <a class=\"nav-link\" href=\"#about\">About</a>\n             </li>\n-            <li class=\"nav-item mr-5\" style=\"margin-right: 20px;\">\n+            <li class=\"nav-item mr-5\">\n               <a class=\"nav-link\" href=\"#portofilo\">My Portofilo</a>\n             </li>\n-            <a href=\"https://github.com/ionxccd\" class=\"text-white\" target=\"_blank\"><GithubIcon/></a>\n+            <li class=\"nav-item mr-5\">\n+              <a class=\"nav-link\" href=\"#contact\">Contact Me</a>\n+            </li>\n+            <a href=\"https://github.com/ionxccd\" class=\"text-white\" style=\"margin-left: 20px;\" target=\"_blank\"><GithubIcon/></a>\n           </ul>\n       </div>\n     </nav>\n   </header>\n"
+                },
+                {
+                    "date": 1661819180067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n             <li class=\"nav-item mr-5\">\n               <a class=\"nav-link\" href=\"#portofilo\">My Portofilo</a>\n             </li>\n             <li class=\"nav-item mr-5\">\n-              <a class=\"nav-link\" href=\"#contact\">Contact Me</a>\n+              <a class=\"nav-link\" href=\"#contact\">Contact</a>\n             </li>\n             <a href=\"https://github.com/ionxccd\" class=\"text-white\" style=\"margin-left: 20px;\" target=\"_blank\"><GithubIcon/></a>\n           </ul>\n       </div>\n"
                 }
             ],
             "date": 1660519488062,

@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/components/IntroPage.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1661816329160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1661816358901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,10 @@\n <template>\r\n-    <div class=\"col-md-5 p-lg-5 w-100 text-white\" id=\"home\" style=\"background-color:#1e1e1e;\" tabindex=\"0\">\r\n     <div class=\"col-md-4 p-lg-5 mx-auto my-5 w-1\">\r\n         <img class=\"img-thumbnail rounded-circle mx-auto d-block justify-content-center\" width=\"200\" height=\"200\" style=\"align-content: center;\"\r\n         src=\"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ficon-library.com%2Fimages%2Fdefault-profile-icon%2Fdefault-profile-icon-16.jpg&f=1&nofb=1\"/>\r\n       <h1 class=\"display-4 font-weight-normal text-center\">David Aasa</h1>\r\n       <p class=\"lead font-weight-normal text-center\">An up and coming full stack developer.</p>\r\n       <div class=\"col col-md-8 mx-auto\">\r\n       </div>\r\n     </div>\r\n-  </div>\r\n </template>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1661816329160,
+            "name": "Commit-0",
+            "content": "<template>\r\n    <div class=\"col-md-5 p-lg-5 w-100 text-white\" id=\"home\" style=\"background-color:#1e1e1e;\" tabindex=\"0\">\r\n    <div class=\"col-md-4 p-lg-5 mx-auto my-5 w-1\">\r\n        <img class=\"img-thumbnail rounded-circle mx-auto d-block justify-content-center\" width=\"200\" height=\"200\" style=\"align-content: center;\"\r\n        src=\"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ficon-library.com%2Fimages%2Fdefault-profile-icon%2Fdefault-profile-icon-16.jpg&f=1&nofb=1\"/>\r\n      <h1 class=\"display-4 font-weight-normal text-center\">David Aasa</h1>\r\n      <p class=\"lead font-weight-normal text-center\">An up and coming full stack developer.</p>\r\n      <div class=\"col col-md-8 mx-auto\">\r\n      </div>\r\n    </div>\r\n  </div>\r\n</template>"
+        }
+    ]
+}

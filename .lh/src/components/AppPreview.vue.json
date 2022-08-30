@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/AppPreview.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1661876622705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1661876622705,
+            "name": "Commit-0",
+            "content": "<template>\r\n    \r\n</template>"
+        }
+    ]
+}
