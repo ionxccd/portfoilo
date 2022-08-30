@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 258,
+            "activePatchIndex": 278,
             "patches": [
                 {
                     "date": 1660508975950,
@@ -1040,6 +1040,86 @@
                 {
                     "date": 1661819104680,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,9 @@\n \n       <h4 class=\"text-center g-5\">Projects</h4>\n       <ProjectPage/>\n \n-      <div class=\"col-md-5 p-lg-5 w-100 text-white justify-content-center d-block\" style=\"background-color:#1e1e1e\" id=\"portofilo\" tabindex=\"2\">\n+      <div class=\"col-md-5 p-lg-5 w-100 text-white justify-content-center d-block\" style=\"background-color:#1e1e1e\" id=\"contact\" tabindex=\"2\">\n       <ContactPage/>\n       </div>\n     </div>\n   </div>\n"
+                },
+                {
+                    "date": 1661878584780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,7 +57,10 @@\n \n       <div class=\"col-md-5 p-lg-5 w-100 text-white justify-content-center d-block\" style=\"background-color:#1e1e1e\" id=\"contact\" tabindex=\"2\">\n       <ContactPage/>\n       </div>\n+      <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\">\n+          Success!\n+      </div>\n     </div>\n   </div>\n </template>\n"
+                },
+                {
+                    "date": 1661878608904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n \n       <div class=\"col-md-5 p-lg-5 w-100 text-white justify-content-center d-block\" style=\"background-color:#1e1e1e\" id=\"contact\" tabindex=\"2\">\n       <ContactPage/>\n       </div>\n-      <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\">\n+      <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"myP\">\n           Success!\n       </div>\n     </div>\n   </div>\n"
+                },
+                {
+                    "date": 1661878634893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,10 +57,10 @@\n \n       <div class=\"col-md-5 p-lg-5 w-100 text-white justify-content-center d-block\" style=\"background-color:#1e1e1e\" id=\"contact\" tabindex=\"2\">\n       <ContactPage/>\n       </div>\n-      <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"myP\">\n+    </div>\n+    <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"myP\">\n           Success!\n       </div>\n-    </div>\n   </div>\n </template>\n"
+                },
+                {
+                    "date": 1661878641686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n       <div class=\"col-md-5 p-lg-5 w-100 text-white justify-content-center d-block\" style=\"background-color:#1e1e1e\" id=\"contact\" tabindex=\"2\">\n       <ContactPage/>\n       </div>\n     </div>\n-    <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"myP\">\n+  </div>\n+  <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"myP\">\n           Success!\n       </div>\n-  </div>\n </template>\n"
+                },
+                {
+                    "date": 1661878656684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n       <div class=\"col-md-5 p-lg-5 w-100 text-white justify-content-center d-block\" style=\"background-color:#1e1e1e\" id=\"contact\" tabindex=\"2\">\n       <ContactPage/>\n       </div>\n     </div>\n-  </div>\n-  <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"myP\">\n+    <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"myP\">\n           Success!\n       </div>\n+  </div>\n </template>\n"
+                },
+                {
+                    "date": 1661878676256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,8 +59,8 @@\n       <ContactPage/>\n       </div>\n     </div>\n     <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"myP\">\n-          Success!\n+          Success! Message Sent\n       </div>\n   </div>\n </template>\n"
+                },
+                {
+                    "date": 1661878694792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,7 +60,10 @@\n       </div>\n     </div>\n     <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"myP\">\n           Success! Message Sent\n-      </div>\n+    </div>\n+    <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"myP\">\n+        Error! Message Not Sent\n+    </div>\n   </div>\n </template>\n"
+                },
+                {
+                    "date": 1661878703681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n       <ContactPage/>\n       </div>\n     </div>\n     <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"myP\">\n-          Success! Message Sent\n+        Success! Message Sent\n     </div>\n     <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"myP\">\n         Error! Message Not Sent\n     </div>\n"
+                },
+                {
+                    "date": 1661878823970,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,12 +58,12 @@\n       <div class=\"col-md-5 p-lg-5 w-100 text-white justify-content-center d-block\" style=\"background-color:#1e1e1e\" id=\"contact\" tabindex=\"2\">\n       <ContactPage/>\n       </div>\n     </div>\n-    <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"myP\">\n+    <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"succ\">\n         Success! Message Sent\n     </div>\n-    <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"myP\">\n+    <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"error\">\n         Error! Message Not Sent\n     </div>\n   </div>\n </template>\n"
+                },
+                {
+                    "date": 1661878861520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n       <h4 class=\"text-center mb-5\">Langauges</h4>\n       <LangaugePage/>\n \n       <h4 class=\"text-center g-5\">Projects</h4>\n-      <ProjectPage/>\n+      <!-- <ProjectPage/> -->\n \n       <div class=\"col-md-5 p-lg-5 w-100 text-white justify-content-center d-block\" style=\"background-color:#1e1e1e\" id=\"contact\" tabindex=\"2\">\n       <ContactPage/>\n       </div>\n"
+                },
+                {
+                    "date": 1661878968831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,8 @@\n       <ContactPage/>\n       </div>\n     </div>\n     <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"succ\">\n-        Success! Message Sent\n     </div>\n     <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"error\">\n         Error! Message Not Sent\n     </div>\n"
+                },
+                {
+                    "date": 1661879005787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,8 +59,9 @@\n       <ContactPage/>\n       </div>\n     </div>\n     <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"succ\">\n+      <p>Mess</p>\n     </div>\n     <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"error\">\n         Error! Message Not Sent\n     </div>\n"
+                },
+                {
+                    "date": 1661879030672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n       <ContactPage/>\n       </div>\n     </div>\n     <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"succ\">\n-      <p>Mess</p>\n+      <p id=\"alert_content\">Mess</p>\n     </div>\n     <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"error\">\n         Error! Message Not Sent\n     </div>\n"
+                },
+                {
+                    "date": 1661879049407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n       <ContactPage/>\n       </div>\n     </div>\n     <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"succ\">\n-      <p id=\"alert_content\">Mess</p>\n+      <p id=\"alert_content\"></p>\n     </div>\n     <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"error\">\n         Error! Message Not Sent\n     </div>\n"
+                },
+                {
+                    "date": 1661879776742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n     </div>\n     <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"succ\">\n       <p id=\"alert_content\"></p>\n     </div>\n-    <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"error\">\n+    <!-- <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"error\">\n         Error! Message Not Sent\n-    </div>\n+    </div> -->\n   </div>\n </template>\n"
+                },
+                {
+                    "date": 1661880079265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,12 +58,8 @@\n       <div class=\"col-md-5 p-lg-5 w-100 text-white justify-content-center d-block\" style=\"background-color:#1e1e1e\" id=\"contact\" tabindex=\"2\">\n       <ContactPage/>\n       </div>\n     </div>\n-    <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"succ\">\n-      <p id=\"alert_content\"></p>\n+    <div class=\"alert\" style=\"width:fit-content\" role=\"alert\" id=\"succ\">\n     </div>\n-    <!-- <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"error\">\n-        Error! Message Not Sent\n-    </div> -->\n   </div>\n </template>\n"
+                },
+                {
+                    "date": 1661880109433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,7 +59,8 @@\n       <ContactPage/>\n       </div>\n     </div>\n     <div class=\"alert\" style=\"width:fit-content\" role=\"alert\" id=\"succ\">\n+      <p id=\"alert_content\"></p>\n     </div>\n   </div>\n </template>\n"
+                },
+                {
+                    "date": 1661880115879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,6 +61,9 @@\n     </div>\n     <div class=\"alert\" style=\"width:fit-content\" role=\"alert\" id=\"succ\">\n       <p id=\"alert_content\"></p>\n     </div>\n+    <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"error\">\n+        Error! Message Not Sent\n+    </div>\n   </div>\n </template>\n"
+                },
+                {
+                    "date": 1661880126375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,11 +59,7 @@\n       <ContactPage/>\n       </div>\n     </div>\n     <div class=\"alert\" style=\"width:fit-content\" role=\"alert\" id=\"succ\">\n-      <p id=\"alert_content\"></p>\n     </div>\n-    <div class=\"alert alert-primary\" style=\"width:fit-content\" role=\"alert\" id=\"error\">\n-        Error! Message Not Sent\n-    </div>\n   </div>\n </template>\n"
+                },
+                {
+                    "date": 1661880435550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,8 +58,8 @@\n       <div class=\"col-md-5 p-lg-5 w-100 text-white justify-content-center d-block\" style=\"background-color:#1e1e1e\" id=\"contact\" tabindex=\"2\">\n       <ContactPage/>\n       </div>\n     </div>\n-    <div class=\"alert\" style=\"width:fit-content\" role=\"alert\" id=\"succ\">\n+    <div class=\"alert\" style=\"width:fit-content\" role=\"alert\" id=\"alertContent\">\n     </div>\n   </div>\n </template>\n"
                 }
             ],
             "date": 1660508975950,

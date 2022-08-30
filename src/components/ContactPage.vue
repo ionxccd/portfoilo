@@ -3,11 +3,19 @@
     import { onMounted } from 'vue';
 
     onMounted(() => {
-        console.log("good");
         emailjs.init("bZa8-bVg50IOwSYVS");
     })
 
-    function test(){
+    function showAlert(mess, classN){
+        setTimeout(function() {
+            document.getElementById("alertContent").style.visibility = "hidden";
+        }, 4000);
+        document.getElementById("alertContent").style.visibility = "visible";
+        document.getElementById("alertContent").className = classN;
+        document.getElementById("alertContent").innerHTML = mess;
+    }
+
+    function sendMail(){
         var name = document.getElementById('user_name').value;
         var message = document.getElementById('message').value;
         var templateParams = {
@@ -17,14 +25,13 @@
         };
         emailjs.send("service_4ui9id3","template_hnjaml8", templateParams)
         .then(function(response) {
-       console.log('SUCCESS!', response.status, response.text);
+            showAlert("Success! Email Sent", "alert alert-success");
         }, function(error) {
-        console.log('FAILED...', error);
+            showAlert("Error! Email Not Sent", "alert alert-error");
         });
     
     document.getElementById('user_name').value = "";
     document.getElementById('message').value = "";
-        
     }    
 </script>
 
@@ -34,7 +41,8 @@
         <form class="col-6" id="emailForm">
            <input type="text" placeholder="Name" id="user_name" class="mb-3 rounded-2 p-1 w-100">
            <textarea placeholder="Message" class="p-1 rounded-2 w-100" id="message" style="height: 10rem;"></textarea>
-           <button type="button" class="btn btn-secondary mt-2" style="width: 5rem;" @click="test">Send</button>
+           <button type="button" class="btn btn-secondary mt-2" 
+           data-toggle="popover" data-placement="top" data-content="Content" style="width: 5rem;" @click="sendMail">Send</button>
         </form>
     </div>
 </template>
