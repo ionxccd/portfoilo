@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 278,
+            "activePatchIndex": 279,
             "patches": [
                 {
                     "date": 1660508975950,
@@ -1120,6 +1120,10 @@
                 {
                     "date": 1661880435550,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,8 +58,8 @@\n       <div class=\"col-md-5 p-lg-5 w-100 text-white justify-content-center d-block\" style=\"background-color:#1e1e1e\" id=\"contact\" tabindex=\"2\">\n       <ContactPage/>\n       </div>\n     </div>\n-    <div class=\"alert\" style=\"width:fit-content\" role=\"alert\" id=\"succ\">\n+    <div class=\"alert\" style=\"width:fit-content\" role=\"alert\" id=\"alertContent\">\n     </div>\n   </div>\n </template>\n"
+                },
+                {
+                    "date": 1661884853195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n       <h4 class=\"text-center mb-5\">Langauges</h4>\n       <LangaugePage/>\n \n       <h4 class=\"text-center g-5\">Projects</h4>\n-      <!-- <ProjectPage/> -->\n+      <ProjectPage/>\n \n       <div class=\"col-md-5 p-lg-5 w-100 text-white justify-content-center d-block\" style=\"background-color:#1e1e1e\" id=\"contact\" tabindex=\"2\">\n       <ContactPage/>\n       </div>\n"
                 }
             ],
             "date": 1660508975950,

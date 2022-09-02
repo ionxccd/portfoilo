@@ -53,7 +53,7 @@
       <LangaugePage/>
 
       <h4 class="text-center g-5">Projects</h4>
-      <!-- <ProjectPage/> -->
+      <ProjectPage/>
 
       <div class="col-md-5 p-lg-5 w-100 text-white justify-content-center d-block" style="background-color:#1e1e1e" id="contact" tabindex="2">
       <ContactPage/>
