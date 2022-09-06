@@ -1,5 +1,6 @@
 <script setup>
   import GithubIcon from './icons/GithubIcon.vue';
+  import InstagramIcon from './icons/InstagramIcon.vue';
 </script>
 
 <template>
@@ -20,7 +21,8 @@
             <li class="nav-item mr-5">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
-            <a href="https://github.com/ionxccd" class="text-white" style="margin-left: 20px;" target="_blank"><GithubIcon/></a>
+            <a href="https://www.instagram.com/somethignwaht/" class="text-white" style="margin-left: 15px;" target="_blank"><InstagramIcon/></a>
+            <a href="https://github.com/ionxccd" class="text-white" style="margin-left: 15px;" target="_blank"><GithubIcon/></a>
           </ul>
       </div>
     </nav>

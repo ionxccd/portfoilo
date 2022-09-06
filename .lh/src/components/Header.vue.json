@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 34,
+            "activePatchIndex": 40,
             "patches": [
                 {
                     "date": 1660519488062,
@@ -144,6 +144,30 @@
                 {
                     "date": 1661819180067,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n             <li class=\"nav-item mr-5\">\n               <a class=\"nav-link\" href=\"#portofilo\">My Portofilo</a>\n             </li>\n             <li class=\"nav-item mr-5\">\n-              <a class=\"nav-link\" href=\"#contact\">Contact Me</a>\n+              <a class=\"nav-link\" href=\"#contact\">Contact</a>\n             </li>\n             <a href=\"https://github.com/ionxccd\" class=\"text-white\" style=\"margin-left: 20px;\" target=\"_blank\"><GithubIcon/></a>\n           </ul>\n       </div>\n"
+                },
+                {
+                    "date": 1662276944786,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n <script setup>\n   import GithubIcon from './icons/GithubIcon.vue';\n+import InstagramIcon from './icons/InstagramIcon.vue';\n </script>\n \n <template>\n <header class=\"site-header sticky-top\">\n@@ -20,8 +21,9 @@\n             <li class=\"nav-item mr-5\">\n               <a class=\"nav-link\" href=\"#contact\">Contact</a>\n             </li>\n             <a href=\"https://github.com/ionxccd\" class=\"text-white\" style=\"margin-left: 20px;\" target=\"_blank\"><GithubIcon/></a>\n+            <a href=\"https://github.com/ionxccd\" class=\"text-white\" style=\"margin-left: 20px;\" target=\"_blank\"><InstagramIcon/></a>\n           </ul>\n       </div>\n     </nav>\n   </header>\n"
+                },
+                {
+                    "date": 1662277025419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <script setup>\n   import GithubIcon from './icons/GithubIcon.vue';\n-import InstagramIcon from './icons/InstagramIcon.vue';\n+  import InstagramIcon from './icons/InstagramIcon.vue';\n </script>\n \n <template>\n <header class=\"site-header sticky-top\">\n@@ -21,9 +21,9 @@\n             <li class=\"nav-item mr-5\">\n               <a class=\"nav-link\" href=\"#contact\">Contact</a>\n             </li>\n             <a href=\"https://github.com/ionxccd\" class=\"text-white\" style=\"margin-left: 20px;\" target=\"_blank\"><GithubIcon/></a>\n-            <a href=\"https://github.com/ionxccd\" class=\"text-white\" style=\"margin-left: 20px;\" target=\"_blank\"><InstagramIcon/></a>\n+            <a href=\"https://www.instagram.com/somethignwaht/\" class=\"text-white\" style=\"margin-left: 20px;\" target=\"_blank\"><InstagramIcon/></a>\n           </ul>\n       </div>\n     </nav>\n   </header>\n"
+                },
+                {
+                    "date": 1662277133296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,10 +20,10 @@\n             </li>\n             <li class=\"nav-item mr-5\">\n               <a class=\"nav-link\" href=\"#contact\">Contact</a>\n             </li>\n+            <a href=\"https://www.instagram.com/somethignwaht/\" class=\"text-white\" style=\"margin-left: 20px;\" target=\"_blank\"><InstagramIcon/></a>\n             <a href=\"https://github.com/ionxccd\" class=\"text-white\" style=\"margin-left: 20px;\" target=\"_blank\"><GithubIcon/></a>\n-            <a href=\"https://www.instagram.com/somethignwaht/\" class=\"text-white\" style=\"margin-left: 20px;\" target=\"_blank\"><InstagramIcon/></a>\n           </ul>\n       </div>\n     </nav>\n   </header>\n"
+                },
+                {
+                    "date": 1662277141021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n             </li>\n             <li class=\"nav-item mr-5\">\n               <a class=\"nav-link\" href=\"#contact\">Contact</a>\n             </li>\n-            <a href=\"https://www.instagram.com/somethignwaht/\" class=\"text-white\" style=\"margin-left: 20px;\" target=\"_blank\"><InstagramIcon/></a>\n+            <a href=\"https://www.instagram.com/somethignwaht/\" class=\"text-white\" style=\"margin-left: 10px;\" target=\"_blank\"><InstagramIcon/></a>\n             <a href=\"https://github.com/ionxccd\" class=\"text-white\" style=\"margin-left: 20px;\" target=\"_blank\"><GithubIcon/></a>\n           </ul>\n       </div>\n     </nav>\n"
+                },
+                {
+                    "date": 1662277146668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n             <li class=\"nav-item mr-5\">\n               <a class=\"nav-link\" href=\"#contact\">Contact</a>\n             </li>\n             <a href=\"https://www.instagram.com/somethignwaht/\" class=\"text-white\" style=\"margin-left: 10px;\" target=\"_blank\"><InstagramIcon/></a>\n-            <a href=\"https://github.com/ionxccd\" class=\"text-white\" style=\"margin-left: 20px;\" target=\"_blank\"><GithubIcon/></a>\n+            <a href=\"https://github.com/ionxccd\" class=\"text-white\" style=\"margin-left: 10px;\" target=\"_blank\"><GithubIcon/></a>\n           </ul>\n       </div>\n     </nav>\n   </header>\n"
+                },
+                {
+                    "date": 1662277153993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,10 +20,10 @@\n             </li>\n             <li class=\"nav-item mr-5\">\n               <a class=\"nav-link\" href=\"#contact\">Contact</a>\n             </li>\n-            <a href=\"https://www.instagram.com/somethignwaht/\" class=\"text-white\" style=\"margin-left: 10px;\" target=\"_blank\"><InstagramIcon/></a>\n-            <a href=\"https://github.com/ionxccd\" class=\"text-white\" style=\"margin-left: 10px;\" target=\"_blank\"><GithubIcon/></a>\n+            <a href=\"https://www.instagram.com/somethignwaht/\" class=\"text-white\" style=\"margin-left: 15px;\" target=\"_blank\"><InstagramIcon/></a>\n+            <a href=\"https://github.com/ionxccd\" class=\"text-white\" style=\"margin-left: 15px;\" target=\"_blank\"><GithubIcon/></a>\n           </ul>\n       </div>\n     </nav>\n   </header>\n"
                 }
             ],
             "date": 1660519488062,

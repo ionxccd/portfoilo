@@ -41,9 +41,9 @@
   <div class="col-md-5 p-lg-5 w-100 text-white" id="home" style="background-color:#1e1e1e;" tabindex="0">
     <IntroPage/>
   </div>
-
   <div class="row g-0 flex-md-row shadow-sm h-md-300 position-relative p-lg-5 text-white" style="background-color:#1e1e1e" id="about" tabindex="1">
-      <AboutPage/>
+    <div class="py-3" style="background-color:#1e1e1e;"></div>  
+    <AboutPage/>
   </div>
   <div class="col-md-5 p-lg-5 w-auto text-white justify-content-center" style="background-color:#1e1e1e" id="portofilo" tabindex="2">
     <div class="row g-0 overflow-hidden flex-md-row row d-flex justify-content-center p-lg-5">

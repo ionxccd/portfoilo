@@ -3,11 +3,79 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 17,
             "patches": [
                 {
                     "date": 1661816419649,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1662406702458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n       </div>\r\n       <div class=\"col p-4 d-flex flex-column position-static\">\r\n         <h2 style=\"color: #000;\" class=\"col-sm-4 justify-content-center d-block text-white\">About Me</h2>\r\n         <hr />\r\n-        <h4>Hello, my name is David. I am a 16yo self-taught programmer. </h4>\r\n+        <h4 class=\"light\">Hello, my name is David. I am a 16yo self-taught programmer. </h4>\r\n       </div>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662406708474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n       </div>\r\n       <div class=\"col p-4 d-flex flex-column position-static\">\r\n         <h2 style=\"color: #000;\" class=\"col-sm-4 justify-content-center d-block text-white\">About Me</h2>\r\n         <hr />\r\n-        <h4 class=\"light\">Hello, my name is David. I am a 16yo self-taught programmer. </h4>\r\n+        <h4 class=\"text-light\">Hello, my name is David. I am a 16yo self-taught programmer. </h4>\r\n       </div>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662406746344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n       </div>\r\n       <div class=\"col p-4 d-flex flex-column position-static\">\r\n         <h2 style=\"color: #000;\" class=\"col-sm-4 justify-content-center d-block text-white\">About Me</h2>\r\n         <hr />\r\n-        <h4 class=\"text-light\">Hello, my name is David. I am a 16yo self-taught programmer. </h4>\r\n+        <h4 class=\"font-weight-light\">Hello, my name is David. I am a 16yo self-taught programmer. </h4>\r\n       </div>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662408312742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n       </div>\r\n       <div class=\"col p-4 d-flex flex-column position-static\">\r\n         <h2 style=\"color: #000;\" class=\"col-sm-4 justify-content-center d-block text-white\">About Me</h2>\r\n         <hr />\r\n-        <h4 class=\"font-weight-light\">Hello, my name is David. I am a 16yo self-taught programmer. </h4>\r\n+        <p class=\"font-weight-light\">Hello, my name is David. I am a 16yo self-taught programmer. </p>\r\n       </div>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662408320255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n       </div>\r\n       <div class=\"col p-4 d-flex flex-column position-static\">\r\n         <h2 style=\"color: #000;\" class=\"col-sm-4 justify-content-center d-block text-white\">About Me</h2>\r\n         <hr />\r\n-        <p class=\"font-weight-light\">Hello, my name is David. I am a 16yo self-taught programmer. </p>\r\n+        <h4 class=\"font-weight-light\">Hello, my name is David. I am a 16yo self-taught programmer. </h4>\r\n       </div>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662408334250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n       </div>\r\n       <div class=\"col p-4 d-flex flex-column position-static\">\r\n         <h2 style=\"color: #000;\" class=\"col-sm-4 justify-content-center d-block text-white\">About Me</h2>\r\n         <hr />\r\n-        <h4 class=\"font-weight-light\">Hello, my name is David. I am a 16yo self-taught programmer. </h4>\r\n+        <h4 class=\"font-weight-light text-uppercase\">Hello, my name is David. I am a 16yo self-taught programmer. </h4>\r\n       </div>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662408361890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n       </div>\r\n       <div class=\"col p-4 d-flex flex-column position-static\">\r\n         <h2 style=\"color: #000;\" class=\"col-sm-4 justify-content-center d-block text-white\">About Me</h2>\r\n         <hr />\r\n-        <h4 class=\"font-weight-light text-uppercase\">Hello, my name is David. I am a 16yo self-taught programmer. </h4>\r\n+        <h4 class=\"font-weight-normal\">Hello, my name is David. I am a 16yo self-taught programmer. </h4>\r\n       </div>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662408477340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n       </div>\r\n       <div class=\"col p-4 d-flex flex-column position-static\">\r\n         <h2 style=\"color: #000;\" class=\"col-sm-4 justify-content-center d-block text-white\">About Me</h2>\r\n         <hr />\r\n-        <h4 class=\"font-weight-normal\">Hello, my name is David. I am a 16yo self-taught programmer. </h4>\r\n+        <h4 style=\"font-weight:lighter\">Hello, my name is David. I am a 16yo self-taught programmer. </h4>\r\n       </div>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662414659943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,8 @@\n       </div>\r\n       <div class=\"col p-4 d-flex flex-column position-static\">\r\n         <h2 style=\"color: #000;\" class=\"col-sm-4 justify-content-center d-block text-white\">About Me</h2>\r\n         <hr />\r\n-        <h4 style=\"font-weight:lighter\">Hello, my name is David. I am a 16yo self-taught programmer. </h4>\r\n+        <h4 style=\"font-weight:lighter\">Hello, my name is David. I am a 16yo self-taught programmer. My main focus is in back-end development, \r\n+          but I do like to challenge myself with full-stack projects. I enjoy building APIs and automated bots in Node.</h4>\r\n       </div>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662414791670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,8 @@\n       </div>\r\n       <div class=\"col p-4 d-flex flex-column position-static\">\r\n         <h2 style=\"color: #000;\" class=\"col-sm-4 justify-content-center d-block text-white\">About Me</h2>\r\n         <hr />\r\n-        <h4 style=\"font-weight:lighter\">Hello, my name is David. I am a 16yo self-taught programmer. My main focus is in back-end development, \r\n+        <h4 style=\"font-weight:lighter;line-height: 1.8;\">Hello, my name is David. I am a 16yo self-taught programmer. My main focus is in back-end development, \r\n           but I do like to challenge myself with full-stack projects. I enjoy building APIs and automated bots in Node.</h4>\r\n       </div>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662414810840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,8 @@\n       </div>\r\n       <div class=\"col p-4 d-flex flex-column position-static\">\r\n         <h2 style=\"color: #000;\" class=\"col-sm-4 justify-content-center d-block text-white\">About Me</h2>\r\n         <hr />\r\n-        <h4 style=\"font-weight:lighter;line-height: 1.8;\">Hello, my name is David. I am a 16yo self-taught programmer. My main focus is in back-end development, \r\n+        <h4 style=\"font-weight:lighter;line-height: 1.8;letter-spacing: 5px;\">Hello, my name is David. I am a 16yo self-taught programmer. My main focus is in back-end development, \r\n           but I do like to challenge myself with full-stack projects. I enjoy building APIs and automated bots in Node.</h4>\r\n       </div>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662415607853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,8 @@\n       </div>\r\n       <div class=\"col p-4 d-flex flex-column position-static\">\r\n         <h2 style=\"color: #000;\" class=\"col-sm-4 justify-content-center d-block text-white\">About Me</h2>\r\n         <hr />\r\n-        <h4 style=\"font-weight:lighter;line-height: 1.8;letter-spacing: 5px;\">Hello, my name is David. I am a 16yo self-taught programmer. My main focus is in back-end development, \r\n+        <h4 style=\"font-weight:lighter;\">Hello, my name is David. I am a 16yo self-taught programmer. My main focus is in back-end development, \r\n           but I do like to challenge myself with full-stack projects. I enjoy building APIs and automated bots in Node.</h4>\r\n       </div>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662415615880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,8 @@\n       </div>\r\n       <div class=\"col p-4 d-flex flex-column position-static\">\r\n         <h2 style=\"color: #000;\" class=\"col-sm-4 justify-content-center d-block text-white\">About Me</h2>\r\n         <hr />\r\n-        <h4 style=\"font-weight:lighter;\">Hello, my name is David. I am a 16yo self-taught programmer. My main focus is in back-end development, \r\n+        <h4 style=\"font-weight:lighter;line-height: 1.8;letter-spacing: 5px;\">Hello, my name is David. I am a 16yo self-taught programmer. My main focus is in back-end development, \r\n           but I do like to challenge myself with full-stack projects. I enjoy building APIs and automated bots in Node.</h4>\r\n       </div>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662415805740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,23 @@\n+<style>\r\n+  #lightText{\r\n+    font-weight:lighter;\r\n+    line-height: 1.8;\r\n+    letter-spacing: 5px;\r\n+  }\r\n+</style>\r\n+\r\n <template>\r\n     <div class=\"col-auto d-none d-lg-block\">\r\n         <img class=\"bd-placeholder-img\" width=\"400\" height=\"600\" style=\"align-content: center;\"\r\n       src=\"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ficon-library.com%2Fimages%2Fdefault-profile-icon%2Fdefault-profile-icon-16.jpg&f=1&nofb=1\"/>\r\n       </div>\r\n       <div class=\"col p-4 d-flex flex-column position-static\">\r\n         <h2 style=\"color: #000;\" class=\"col-sm-4 justify-content-center d-block text-white\">About Me</h2>\r\n         <hr />\r\n-        <h4 style=\"font-weight:lighter;line-height: 1.8;letter-spacing: 5px;\">Hello, my name is David. I am a 16yo self-taught programmer. My main focus is in back-end development, \r\n-          but I do like to challenge myself with full-stack projects. I enjoy building APIs and automated bots in Node.</h4>\r\n+        <h4 style=\"font-weight:lighter;line-height: 1.8;letter-spacing: 5px;\">\r\n+          Hello, my name is David. I am a 16yo self-taught programmer. \r\n+          My main focus is in back-end development, \r\n+          but I do like to challenge myself with full-stack projects. \r\n+          I enjoy building APIs and automated bots in Node. </h4>\r\n       </div>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662415819438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n       </div>\r\n       <div class=\"col p-4 d-flex flex-column position-static\">\r\n         <h2 style=\"color: #000;\" class=\"col-sm-4 justify-content-center d-block text-white\">About Me</h2>\r\n         <hr />\r\n-        <h4 style=\"font-weight:lighter;line-height: 1.8;letter-spacing: 5px;\">\r\n+        <h4 id=\"lightText\">\r\n           Hello, my name is David. I am a 16yo self-taught programmer. \r\n           My main focus is in back-end development, \r\n           but I do like to challenge myself with full-stack projects. \r\n           I enjoy building APIs and automated bots in Node. </h4>\r\n"
+                },
+                {
+                    "date": 1662415832287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         <img class=\"bd-placeholder-img\" width=\"400\" height=\"600\" style=\"align-content: center;\"\r\n       src=\"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ficon-library.com%2Fimages%2Fdefault-profile-icon%2Fdefault-profile-icon-16.jpg&f=1&nofb=1\"/>\r\n       </div>\r\n       <div class=\"col p-4 d-flex flex-column position-static\">\r\n-        <h2 style=\"color: #000;\" class=\"col-sm-4 justify-content-center d-block text-white\">About Me</h2>\r\n+        <h2 style=\"color: #000;\" id=\"lightText\" class=\"col-sm-4 justify-content-center d-block text-white\">About Me</h2>\r\n         <hr />\r\n         <h4 id=\"lightText\">\r\n           Hello, my name is David. I am a 16yo self-taught programmer. \r\n           My main focus is in back-end development, \r\n"
+                },
+                {
+                    "date": 1662421762647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,7 +17,7 @@\n         <h4 id=\"lightText\">\r\n           Hello, my name is David. I am a 16yo self-taught programmer. \r\n           My main focus is in back-end development, \r\n           but I do like to challenge myself with full-stack projects. \r\n-          I enjoy building APIs and automated bots in Node. </h4>\r\n+          I enjoy building APIs and automated bots in Node. As well as React Naative apps and websites</h4>\r\n       </div>\r\n </template>\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1661816419649,

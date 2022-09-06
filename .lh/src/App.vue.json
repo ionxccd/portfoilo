@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 279,
+            "activePatchIndex": 284,
             "patches": [
                 {
                     "date": 1660508975950,
@@ -1124,6 +1124,26 @@
                 {
                     "date": 1661884853195,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n       <h4 class=\"text-center mb-5\">Langauges</h4>\n       <LangaugePage/>\n \n       <h4 class=\"text-center g-5\">Projects</h4>\n-      <!-- <ProjectPage/> -->\n+      <ProjectPage/>\n \n       <div class=\"col-md-5 p-lg-5 w-100 text-white justify-content-center d-block\" style=\"background-color:#1e1e1e\" id=\"contact\" tabindex=\"2\">\n       <ContactPage/>\n       </div>\n"
+                },
+                {
+                    "date": 1662417656860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n \n   <div class=\"col-md-5 p-lg-5 w-100 text-white\" id=\"home\" style=\"background-color:#1e1e1e;\" tabindex=\"0\">\n     <IntroPage/>\n   </div>\n-\n+  <div></div>\n   <div class=\"row g-0 flex-md-row shadow-sm h-md-300 position-relative p-lg-5 text-white\" style=\"background-color:#1e1e1e\" id=\"about\" tabindex=\"1\">\n       <AboutPage/>\n   </div>\n   <div class=\"col-md-5 p-lg-5 w-auto text-white justify-content-center\" style=\"background-color:#1e1e1e\" id=\"portofilo\" tabindex=\"2\">\n"
+                },
+                {
+                    "date": 1662417683688,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n \n   <div class=\"col-md-5 p-lg-5 w-100 text-white\" id=\"home\" style=\"background-color:#1e1e1e;\" tabindex=\"0\">\n     <IntroPage/>\n   </div>\n-  <div></div>\n+  <div class=\"px-5\"></div>\n   <div class=\"row g-0 flex-md-row shadow-sm h-md-300 position-relative p-lg-5 text-white\" style=\"background-color:#1e1e1e\" id=\"about\" tabindex=\"1\">\n       <AboutPage/>\n   </div>\n   <div class=\"col-md-5 p-lg-5 w-auto text-white justify-content-center\" style=\"background-color:#1e1e1e\" id=\"portofilo\" tabindex=\"2\">\n"
+                },
+                {
+                    "date": 1662417704121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n \n   <div class=\"col-md-5 p-lg-5 w-100 text-white\" id=\"home\" style=\"background-color:#1e1e1e;\" tabindex=\"0\">\n     <IntroPage/>\n   </div>\n-  <div class=\"px-5\"></div>\n+  <div class=\"py-5\" style=\"background-color:#1e1e1e;\"></div>\n   <div class=\"row g-0 flex-md-row shadow-sm h-md-300 position-relative p-lg-5 text-white\" style=\"background-color:#1e1e1e\" id=\"about\" tabindex=\"1\">\n       <AboutPage/>\n   </div>\n   <div class=\"col-md-5 p-lg-5 w-auto text-white justify-content-center\" style=\"background-color:#1e1e1e\" id=\"portofilo\" tabindex=\"2\">\n"
+                },
+                {
+                    "date": 1662417728281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,11 +40,11 @@\n \n   <div class=\"col-md-5 p-lg-5 w-100 text-white\" id=\"home\" style=\"background-color:#1e1e1e;\" tabindex=\"0\">\n     <IntroPage/>\n   </div>\n-  <div class=\"py-5\" style=\"background-color:#1e1e1e;\"></div>\n   <div class=\"row g-0 flex-md-row shadow-sm h-md-300 position-relative p-lg-5 text-white\" style=\"background-color:#1e1e1e\" id=\"about\" tabindex=\"1\">\n-      <AboutPage/>\n+    <div class=\"py-5\" style=\"background-color:#1e1e1e;\"></div>  \n+    <AboutPage/>\n   </div>\n   <div class=\"col-md-5 p-lg-5 w-auto text-white justify-content-center\" style=\"background-color:#1e1e1e\" id=\"portofilo\" tabindex=\"2\">\n     <div class=\"row g-0 overflow-hidden flex-md-row row d-flex justify-content-center p-lg-5\">\n       <h2 class=\"text-center mb-3\">My Portofilo</h2>\n"
+                },
+                {
+                    "date": 1662417738072,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n   <div class=\"col-md-5 p-lg-5 w-100 text-white\" id=\"home\" style=\"background-color:#1e1e1e;\" tabindex=\"0\">\n     <IntroPage/>\n   </div>\n   <div class=\"row g-0 flex-md-row shadow-sm h-md-300 position-relative p-lg-5 text-white\" style=\"background-color:#1e1e1e\" id=\"about\" tabindex=\"1\">\n-    <div class=\"py-5\" style=\"background-color:#1e1e1e;\"></div>  \n+    <div class=\"py-3\" style=\"background-color:#1e1e1e;\"></div>  \n     <AboutPage/>\n   </div>\n   <div class=\"col-md-5 p-lg-5 w-auto text-white justify-content-center\" style=\"background-color:#1e1e1e\" id=\"portofilo\" tabindex=\"2\">\n     <div class=\"row g-0 overflow-hidden flex-md-row row d-flex justify-content-center p-lg-5\">\n"
                 }
             ],
             "date": 1660508975950,

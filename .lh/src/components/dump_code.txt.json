@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/dump_code.txt",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1662186435863,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1662186435863,
+            "name": "Commit-0",
+            "content": "[{\r\n          \"appName\": \"Financial Timeline\",\r\n          \"appIcon\": \"https://play-lh.googleusercontent.com/1vZt2dytIMtfc8HNsPwJ8OHdC7lCM2UaTgKHd4U00aSBwXjAsRGMO01HzkKKAbuziug=w240-h480\",\r\n          \"appAbout\": \"A personal finance that tracks income and expenses.\",\r\n          \"appRating\": \"Everyone\",\r\n          \"appDownloads\": \"10+\",\r\n          \"appRatingIcon\": \"https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i=w48-h16\",\r\n          \"url\": \"https://play.google.com/store/apps/details?id=com.ionxccd.finalFinincal\"\r\n        }]"
+        }
+    ]
+}

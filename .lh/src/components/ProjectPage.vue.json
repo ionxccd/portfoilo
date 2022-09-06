@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 358,
+            "activePatchIndex": 379,
             "patches": [
                 {
                     "date": 1661816064421,
@@ -1440,6 +1440,90 @@
                 {
                     "date": 1662068083630,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n </script>\r\n   \r\n   \r\n   <template>\r\n-    <div class=\"row d-flex justify-content-center\" style=\"justify:center\">\r\n+    <div class=\"row col-xs-1 text-center\" style=\"justify:center\">\r\n       <div class=\"col-md\">\r\n         <AppPreview :appData=appData1></AppPreview>\r\n       </div>\r\n       <div class=\"col-md\">\r\n"
+                },
+                {
+                    "date": 1662185997952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n   \r\n   <template>\r\n     <div class=\"row col-xs-1 text-center\" style=\"justify:center\">\r\n       <div class=\"col-md\">\r\n-        <AppPreview :appData=appData1></AppPreview>\r\n+        <AppPreview v-if=appData1 :appData=appData1></AppPreview>\r\n       </div>\r\n       <div class=\"col-md\">\r\n         <AppPreview :appData=appData2></AppPreview>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662186067456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n   \r\n   <template>\r\n     <div class=\"row col-xs-1 text-center\" style=\"justify:center\">\r\n       <div class=\"col-md\">\r\n-        <AppPreview v-if=appData1 :appData=appData1></AppPreview>\r\n+        <AppPreview :appData=appData1></AppPreview>\r\n       </div>\r\n       <div class=\"col-md\">\r\n         <AppPreview :appData=appData2></AppPreview>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662186447775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,17 +4,9 @@\n   export default {\r\n        name : \"messagespainel\",\r\n        inheritAttrs:false,\r\n        data: function() {\r\n-         return {appData1: [{\r\n-          \"appName\": \"Financial Timeline\",\r\n-          \"appIcon\": \"https://play-lh.googleusercontent.com/1vZt2dytIMtfc8HNsPwJ8OHdC7lCM2UaTgKHd4U00aSBwXjAsRGMO01HzkKKAbuziug=w240-h480\",\r\n-          \"appAbout\": \"A personal finance that tracks income and expenses.\",\r\n-          \"appRating\": \"Everyone\",\r\n-          \"appDownloads\": \"10+\",\r\n-          \"appRatingIcon\": \"https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i=w48-h16\",\r\n-          \"url\": \"https://play.google.com/store/apps/details?id=com.ionxccd.finalFinincal\"\r\n-        }],\r\n+         return {appData1: \"com.ionxccd.finalFinincal\",\r\n         appData2:[{\r\n           \"appName\": \"Pocket Notes\",\r\n           \"appIcon\": \"https://play-lh.googleusercontent.com/8dyV5MYkndNsgzjmS4uMsha8u25ZUHbM_O4nYJV4HyklU2lglWgjLTCMAJcAGXkSxAl0=w240-h480\",\r\n           \"appAbout\": \"A simple task app for recording notes\",\r\n"
+                },
+                {
+                    "date": 1662186583667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n       <div class=\"col-md\">\r\n         <AppPreview :appData=appData1></AppPreview>\r\n       </div>\r\n       <div class=\"col-md\">\r\n-        <AppPreview :appData=appData2></AppPreview>\r\n+        <!-- <AppPreview :appData=appData2></AppPreview> -->\r\n       </div>\r\n     </div>\r\n           <!-- !Embed is a bit laggy-->\r\n         <!-- <div class='row justify-content-around w-200'>\r\n"
+                },
+                {
+                    "date": 1662186789856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,12 +43,12 @@\n   \r\n   <template>\r\n     <div class=\"row col-xs-1 text-center\" style=\"justify:center\">\r\n       <div class=\"col-md\">\r\n-        <AppPreview :appData=appData1></AppPreview>\r\n+        <AppPreview appData=\"com.ionxccd.finalFinincal\"></AppPreview>\r\n       </div>\r\n       <div class=\"col-md\">\r\n-        <!-- <AppPreview :appData=appData2></AppPreview> -->\r\n+        <AppPreview appData=\"com.ionxccd.PocketNotes\"></AppPreview>\r\n       </div>\r\n     </div>\r\n           <!-- !Embed is a bit laggy-->\r\n         <!-- <div class='row justify-content-around w-200'>\r\n"
+                },
+                {
+                    "date": 1662186882642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,47 +1,4 @@\n-  <script>\r\n-  import axios from 'axios';\r\n-\r\n-  export default {\r\n-       name : \"messagespainel\",\r\n-       inheritAttrs:false,\r\n-       data: function() {\r\n-         return {appData1: \"com.ionxccd.finalFinincal\",\r\n-        appData2:[{\r\n-          \"appName\": \"Pocket Notes\",\r\n-          \"appIcon\": \"https://play-lh.googleusercontent.com/8dyV5MYkndNsgzjmS4uMsha8u25ZUHbM_O4nYJV4HyklU2lglWgjLTCMAJcAGXkSxAl0=w240-h480\",\r\n-          \"appAbout\": \"A simple task app for recording notes\",\r\n-          \"appRating\": \"Everyone\",\r\n-          \"appDownloads\": \"1+\",\r\n-          \"appRatingIcon\": \"https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i=w48-h16\",\r\n-          \"url\": \"https://play.google.com/store/apps/details?id=com.ionxccd.PocketNotes\"\r\n-        }]}  \r\n-       },\r\n-       methods:{\r\n-        getAppD: function (appID){\r\n-          let options = {\r\n-            method: 'GET',\r\n-            url: 'https://google-playstore-api.p.rapidapi.com/getApp/' + appID,\r\n-            headers: {\r\n-              'X-RapidAPI-Key': '01f5630935msh2ae232b2b21e979p1bd426jsncdf93648d3da',\r\n-              'X-RapidAPI-Host': 'google-playstore-api.p.rapidapi.com'\r\n-            }\r\n-          };\r\n-          axios.request(options).then(response => \r\n-          {  this.messages = response })\r\n-          console.log(this.messages.data)\r\n-          return this.messages.data;\r\n-        }\r\n-       },\r\n-      //  mounted() {\r\n-      //   axios.request(options).then(response => \r\n-      //   {  this.messages = response })\r\n-      //   // console.log(runrun())\r\n-      // }\r\n-    }\r\n-</script>\r\n-  \r\n-  \r\n   <template>\r\n     <div class=\"row col-xs-1 text-center\" style=\"justify:center\">\r\n       <div class=\"col-md\">\r\n         <AppPreview appData=\"com.ionxccd.finalFinincal\"></AppPreview>\r\n@@ -49,28 +6,8 @@\n       <div class=\"col-md\">\r\n         <AppPreview appData=\"com.ionxccd.PocketNotes\"></AppPreview>\r\n       </div>\r\n     </div>\r\n-          <!-- !Embed is a bit laggy-->\r\n-        <!-- <div class='row justify-content-around w-200'>\r\n-          <AppPreview />\r\n-        div class=\"col-4\">\r\n-          <embed src=\"https://bit.ly/3plwgQh\" class=\"rounded\" style=\"width:500px; height: 300px;\"/>\r\n-        </div>\r\n-        <div class=\"col-4\">\r\n-          <embed src=\"https://play.google.com/store/apps/details?id=com.ionxccd.PocketNotes\" \r\n-          style=\"width:500px; height: 300px;\" class=\"rounded\"/>\r\n-        </div>\r\n-      </div>\r\n-      <div class='row justify-content-around w-200 mb-20'>\r\n-        <div class=\"col-4\">\r\n-          <embed src=\"https://rapidapi.com/ionxccd/api/open-library2\" class=\"rounded\" style=\"width:500px; height: 300px;\"/>\r\n-        </div>\r\n-        <div class=\"col-4\">\r\n-          <embed src=\"https://rapidapi.com/ionxccd/api/today-in-history/\" \r\n-          style=\"width:500px; height: 300px;\" class=\"rounded\"/>\r\n-        </div>\r\n-      </div> -->\r\n   </template>\r\n \r\n <script setup>\r\n   import AppPreview from './AppPreview.vue';\r\n"
+                },
+                {
+                    "date": 1662188061467,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,11 @@\n       </div>\r\n       <div class=\"col-md\">\r\n         <AppPreview appData=\"com.ionxccd.PocketNotes\"></AppPreview>\r\n       </div>\r\n+      <div class=\"col-md\">\r\n+        <AppPreview appData=\"com.zhiliaoapp.musically\"></AppPreview>\r\n+      </div>\r\n     </div>\r\n   </template>\r\n \r\n <script setup>\r\n"
+                },
+                {
+                    "date": 1662188281034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,11 +5,8 @@\n       </div>\r\n       <div class=\"col-md\">\r\n         <AppPreview appData=\"com.ionxccd.PocketNotes\"></AppPreview>\r\n       </div>\r\n-      <div class=\"col-md\">\r\n-        <AppPreview appData=\"com.zhiliaoapp.musically\"></AppPreview>\r\n-      </div>\r\n     </div>\r\n   </template>\r\n \r\n <script setup>\r\n"
+                },
+                {
+                    "date": 1662276169398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,16 @@\n       <div class=\"col-md\">\r\n         <AppPreview appData=\"com.ionxccd.PocketNotes\"></AppPreview>\r\n       </div>\r\n     </div>\r\n+    <div class=\"row col-xs-1 text-center\" style=\"justify:center\">\r\n+      <div class=\"col-md\">\r\n+        <AppPreview appData=\"com.ionxccd.finalFinincal\"></AppPreview>\r\n+      </div>\r\n+      <div class=\"col-md\">\r\n+        <AppPreview appData=\"com.ionxccd.PocketNotes\"></AppPreview>\r\n+      </div>\r\n+    </div>\r\n   </template>\r\n \r\n <script setup>\r\n   import AppPreview from './AppPreview.vue';\r\n"
+                },
+                {
+                    "date": 1662276283976,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n       </div>\r\n     </div>\r\n     <div class=\"row col-xs-1 text-center\" style=\"justify:center\">\r\n       <div class=\"col-md\">\r\n-        <AppPreview appData=\"com.ionxccd.finalFinincal\"></AppPreview>\r\n+        <AppPreview username=\"ionxccd\" apiName=\"rapid-api5\"></AppPreview>\r\n       </div>\r\n       <div class=\"col-md\">\r\n         <AppPreview appData=\"com.ionxccd.PocketNotes\"></AppPreview>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662276313983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,15 +8,16 @@\n       </div>\r\n     </div>\r\n     <div class=\"row col-xs-1 text-center\" style=\"justify:center\">\r\n       <div class=\"col-md\">\r\n-        <AppPreview username=\"ionxccd\" apiName=\"rapid-api5\"></AppPreview>\r\n+        <ApiPreview username=\"ionxccd\" apiName=\"rapid-api5\"></ApiPreview>\r\n       </div>\r\n       <div class=\"col-md\">\r\n-        <AppPreview appData=\"com.ionxccd.PocketNotes\"></AppPreview>\r\n+        <ApiPreview appData=\"com.ionxccd.PocketNotes\"></ApiPreview>\r\n       </div>\r\n     </div>\r\n   </template>\r\n \r\n <script setup>\r\n   import AppPreview from './AppPreview.vue';\r\n+  import ApiPreview from './ApiPreview.vue';\r\n </script>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662276372133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n       <div class=\"col-md\">\r\n         <ApiPreview username=\"ionxccd\" apiName=\"rapid-api5\"></ApiPreview>\r\n       </div>\r\n       <div class=\"col-md\">\r\n-        <ApiPreview appData=\"com.ionxccd.PocketNotes\"></ApiPreview>\r\n+        <ApiPreview username=\"ionxccd\" apiName=\"rapid-api5\"></ApiPreview>\r\n       </div>\r\n     </div>\r\n   </template>\r\n \r\n"
+                },
+                {
+                    "date": 1662277830336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,12 +8,12 @@\n       </div>\r\n     </div>\r\n     <div class=\"row col-xs-1 text-center\" style=\"justify:center\">\r\n       <div class=\"col-md\">\r\n-        <ApiPreview username=\"ionxccd\" apiName=\"rapid-api5\"></ApiPreview>\r\n+        <ApiPreview username=\"ionxccd\" apiName=\"open-library2\"></ApiPreview>\r\n       </div>\r\n       <div class=\"col-md\">\r\n-        <ApiPreview username=\"ionxccd\" apiName=\"rapid-api5\"></ApiPreview>\r\n+        <ApiPreview username=\"ionxccd\" apiName=\"today-in-history\"></ApiPreview>\r\n       </div>\r\n     </div>\r\n   </template>\r\n \r\n"
+                },
+                {
+                    "date": 1662278200846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n   <template>\r\n-    <div class=\"row col-xs-1 text-center\" style=\"justify:center\">\r\n+    <div class=\"row col-xs-1 text-center card\" style=\"justify:center\">\r\n       <div class=\"col-md\">\r\n         <AppPreview appData=\"com.ionxccd.finalFinincal\"></AppPreview>\r\n       </div>\r\n       <div class=\"col-md\">\r\n"
+                },
+                {
+                    "date": 1662278237794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n   <template>\r\n-    <div class=\"row col-xs-1 text-center card\" style=\"justify:center\">\r\n-      <div class=\"col-md\">\r\n+    <div class=\"row col-xs-1 text-center\" style=\"justify:center\">\r\n+      <div class=\"col-md card\">\r\n         <AppPreview appData=\"com.ionxccd.finalFinincal\"></AppPreview>\r\n       </div>\r\n       <div class=\"col-md\">\r\n         <AppPreview appData=\"com.ionxccd.PocketNotes\"></AppPreview>\r\n"
+                },
+                {
+                    "date": 1662278243468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n   <template>\r\n     <div class=\"row col-xs-1 text-center\" style=\"justify:center\">\r\n-      <div class=\"col-md card\">\r\n+      <div class=\"col-md\">\r\n         <AppPreview appData=\"com.ionxccd.finalFinincal\"></AppPreview>\r\n       </div>\r\n       <div class=\"col-md\">\r\n         <AppPreview appData=\"com.ionxccd.PocketNotes\"></AppPreview>\r\n"
+                },
+                {
+                    "date": 1662278320496,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n   <template>\r\n-    <div class=\"row col-xs-1 text-center\" style=\"justify:center\">\r\n+    <div class=\"row col-xs-1 text-center card\" style=\"justify:center\">\r\n       <div class=\"col-md\">\r\n         <AppPreview appData=\"com.ionxccd.finalFinincal\"></AppPreview>\r\n       </div>\r\n       <div class=\"col-md\">\r\n"
+                },
+                {
+                    "date": 1662278326507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n   <template>\r\n-    <div class=\"row col-xs-1 text-center card\" style=\"justify:center\">\r\n+    <div class=\"row col-xs-1 text-center card col-md\" style=\"justify:center\">\r\n       <div class=\"col-md\">\r\n         <AppPreview appData=\"com.ionxccd.finalFinincal\"></AppPreview>\r\n       </div>\r\n       <div class=\"col-md\">\r\n"
+                },
+                {
+                    "date": 1662278332580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n   <template>\r\n-    <div class=\"row col-xs-1 text-center card col-md\" style=\"justify:center\">\r\n+    <div class=\"row col-xs-1 text-center card\" style=\"justify:center\">\r\n       <div class=\"col-md\">\r\n         <AppPreview appData=\"com.ionxccd.finalFinincal\"></AppPreview>\r\n       </div>\r\n       <div class=\"col-md\">\r\n"
+                },
+                {
+                    "date": 1662278337918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n   <template>\r\n-    <div class=\"row col-xs-1 text-center card\" style=\"justify:center\">\r\n+    <div class=\"row col-xs-1 text-center\" style=\"justify:center\">\r\n       <div class=\"col-md\">\r\n         <AppPreview appData=\"com.ionxccd.finalFinincal\"></AppPreview>\r\n       </div>\r\n       <div class=\"col-md\">\r\n"
+                },
+                {
+                    "date": 1662321680514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,7 +17,7 @@\n     </div>\r\n   </template>\r\n \r\n <script setup>\r\n-  import AppPreview from './AppPreview.vue';\r\n-  import ApiPreview from './ApiPreview.vue';\r\n+  import AppPreview from './ProjectViews/AppPreview.vue';\r\n+  import ApiPreview from './ProjectViews/ApiPreview.vue';\r\n </script>\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1661816064421,

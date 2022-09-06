@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1661877328756,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1662406968810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     <meta charset=\"UTF-8\" />\n     <link rel=\"icon\" href=\"/favicon.ico\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>\n-    <title>Vite App</title>\n+    <title>David Aasa</title>\n   </head>\n   <body>\n     <div id=\"app\"></div>\n     <script type=\"module\" src=\"/src/main.js\"></script>\n"
                 }
             ],
             "date": 1661877328756,

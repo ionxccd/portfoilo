@@ -1,0 +1,9 @@
+[{
+          "appName": "Financial Timeline",
+          "appIcon": "https://play-lh.googleusercontent.com/1vZt2dytIMtfc8HNsPwJ8OHdC7lCM2UaTgKHd4U00aSBwXjAsRGMO01HzkKKAbuziug=w240-h480",
+          "appAbout": "A personal finance that tracks income and expenses.",
+          "appRating": "Everyone",
+          "appDownloads": "10+",
+          "appRatingIcon": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i=w48-h16",
+          "url": "https://play.google.com/store/apps/details?id=com.ionxccd.finalFinincal"
+        }]
