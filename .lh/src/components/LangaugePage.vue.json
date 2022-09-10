@@ -1,0 +1,86 @@
+{
+    "sourceFile": "src/components/LangaugePage.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 17,
+            "patches": [
+                {
+                    "date": 1662851477906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1662851494156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n       <div class=\"col-3\">\r\n         <img src=\"src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n-        <img :src=\"`src\\images\\mysql.png`\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img :src=\"src\\images\\mysql.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"src\\images\\react.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662851614990,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,14 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img src=\"src\\images\\nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img :src=\"require(`src\\images\\nodejs.png`)\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n-        <img :src=\"src\\images\\mysql.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"src\\images\\mysql.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"src\\images\\react.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662851657955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img :src=\"require(`src\\images\\nodejs.png`)\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"@\\src\\images\\nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662851677583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img src=\"@\\src\\images\\nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"src\\images\\nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662851859252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img src=\"src\\images\\nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"`src\\images\\nodejs.png`\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662851869016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img src=\"`src\\images\\nodejs.png`\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"src\\images\\nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662852859221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img src=\"src\\images\\nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img :src=\"`src\\images\\nodejs.png`\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662853002945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,16 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img :src=\"`src\\images\\nodejs.png`\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"\\src\\images\\nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n-        <img src=\"src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"\\src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n-        <img src=\"src\\images\\mysql.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"\\src\\images\\mysql.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n-        <img src=\"src\\images\\react.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"\\src\\images\\react.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n     </div>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662853292854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img src=\"\\src\\images\\nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"..\\assets\\images\\nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"\\src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662853312732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img src=\"..\\assets\\images\\nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"../assets/images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"\\src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662853318893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img src=\"../assets/images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"src/assets/images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"\\src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662853324910,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img src=\"src/assets/images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"../src/assets/images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"\\src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662853358797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img src=\"../src/assets/images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img :src=\"'../assets/images/nodejs.png'\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"\\src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662853374766,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img :src=\"'../assets/images/nodejs.png'\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"../src/assets/images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"\\src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662853387314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img src=\"../src/assets/images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"../assets/images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"\\src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662853493551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img src=\"../assets/images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"../images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"\\src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1662853511308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,14 +3,14 @@\n       <div class=\"col-3\">\r\n         <img src=\"../images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n-        <img src=\"\\src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"../images/python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n-        <img src=\"\\src\\images\\mysql.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"../images/mysql.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n-        <img src=\"\\src\\images\\react.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"../images/react.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n     </div>\r\n </template>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1662851477906,
+            "name": "Commit-0",
+            "content": "<template>\r\n    <div class='row justify-content-around w-200'>\r\n      <div class=\"col-3\">\r\n        <img src=\"src\\images\\nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n      </div>\r\n      <div class=\"col-3\">\r\n        <img src=\"src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n      </div>\r\n      <div class=\"col-3\">\r\n        <img :src=\"`src\\images\\mysql.png`\" width=auto height=\"100\" id=\"marginauto\"/>\r\n      </div>\r\n      <div class=\"col-3\">\r\n        <img src=\"src\\images\\react.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n      </div>\r\n    </div>\r\n</template>"
+        }
+    ]
+}
