@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1662186435863,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1663367907630,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n           \"appAbout\": \"A personal finance that tracks income and expenses.\",\r\n           \"appRating\": \"Everyone\",\r\n           \"appDownloads\": \"10+\",\r\n           \"appRatingIcon\": \"https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i=w48-h16\",\r\n-          \"url\": \"https://play.google.com/store/apps/details?id=com.ionxccd.finalFinincal\"\r\n+          \"url\": \"https://plsay.google.com/store/apps/details?id=com.ionxccd.finalFinincal\"\r\n         }]\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1662186435863,
