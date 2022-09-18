@@ -7,7 +7,7 @@
         <img src="../images/python.png" width=auto height="100" id="marginauto"/>
       </div>
       <div class="col-3">
-        <img src="../images/mysql.png" width=auto height="100" id="marginauto"/>
+        <img src="https://relaxed-taffy-7722ba.netlify.app/assets/mysql.932dea3c.png" width=auto height="100" id="marginauto"/>
       </div>
       <div class="col-3">
         <img src="../images/react.png" width=auto height="100" id="marginauto"/>
