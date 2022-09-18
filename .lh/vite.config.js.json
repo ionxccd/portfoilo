@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1662845255115,
@@ -11,7 +11,11 @@
                 },
                 {
                     "date": 1662851454085,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import vueJsx from \"@vitejs/plugin-vue-jsx\";\n \n // https://vitejs.dev/config/\n export default defineConfig({\n-  base: 'ionxccd.github.io',\n+  base: '/ionxccd.github.io/',\n   plugins: [vue(), vueJsx()],\n   resolve: {\n     alias: {\n       \"@\": fileURLToPath(new URL(\"./src\", import.meta.url)),\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import vueJsx from \"@vitejs/plugin-vue-jsx\";\n \n // https://vitejs.dev/config/\n export default defineConfig({\n-  base: 'ionxccd.github.io',\n+  base: '',\n   plugins: [vue(), vueJsx()],\n   resolve: {\n     alias: {\n       \"@\": fileURLToPath(new URL(\"./src\", import.meta.url)),\n"
+                },
+                {
+                    "date": 1663469783796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import vueJsx from \"@vitejs/plugin-vue-jsx\";\n \n // https://vitejs.dev/config/\n export default defineConfig({\n-  base: '',\n+  base: '',\n   plugins: [vue(), vueJsx()],\n   resolve: {\n     alias: {\n       \"@\": fileURLToPath(new URL(\"./src\", import.meta.url)),\n"
                 }
             ],
             "date": 1662845255115,

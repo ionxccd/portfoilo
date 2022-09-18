@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 17,
+            "activePatchIndex": 21,
             "patches": [
                 {
                     "date": 1662851477906,
@@ -76,6 +76,22 @@
                 {
                     "date": 1662853511308,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,14 +3,14 @@\n       <div class=\"col-3\">\r\n         <img src=\"../images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n-        <img src=\"\\src\\images\\python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"../images/python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n-        <img src=\"\\src\\images\\mysql.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"../images/mysql.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n-        <img src=\"\\src\\images\\react.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"../images/react.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n     </div>\r\n </template>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1663468178872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img src=\"../images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"../dist2/assets/mysql.932dea3c.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"../images/python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1663468189259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img src=\"../dist2/assets/mysql.932dea3c.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"../images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"../images/python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1663468361622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img src=\"../images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"../src/images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"../images/python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1663468371854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <template>\r\n     <div class='row justify-content-around w-200'>\r\n       <div class=\"col-3\">\r\n-        <img src=\"../src/images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n+        <img src=\"../images/nodejs.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n       <div class=\"col-3\">\r\n         <img src=\"../images/python.png\" width=auto height=\"100\" id=\"marginauto\"/>\r\n       </div>\r\n"
                 }
             ],
             "date": 1662851477906,
