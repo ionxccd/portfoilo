@@ -1,24 +1,11 @@
 <script setup>
   import HeaderView from './components/Header.vue';
   import ContactPage from './components/ContactPage.vue';
-
-  import GithubIcon from './components/icons/GithubIcon.vue';
-  import { ref, onMounted } from 'vue';
   import ProjectPage from './components/ProjectPage.vue';
   import LangaugePage from './components/LangaugePage.vue';
   import IntroPage from './components/IntroPage.vue';
   import AboutPage from './components/AboutPage.vue';
-
-  const count = ref(0)
-
-  function increment() {
-    count.value++
-    console.log(count.value);
-  }
-
-  onMounted(() => {
-    console.log(`The initial count is ${count.value}.`)
-  })
+import ProfileCard from './components/ProjectViews/Profile-card.vue';
 </script>
 
 <style>
@@ -58,6 +45,12 @@
       <div class="col-md-5 p-lg-5 w-100 text-white justify-content-center d-block" style="background-color:#1e1e1e" id="contact" tabindex="2">
       <ContactPage/>
       </div>
+      <Suspense>
+        <template #default>
+          <ProfileCard />
+        </template>
+        <template #fallback> Loading... </template>
+      </Suspense>
     </div>
     <div class="alert" style="width:fit-content" role="alert" id="alertContent">
     </div>

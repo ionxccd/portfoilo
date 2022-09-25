@@ -3,11 +3,19 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1663466525290,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1664069279182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <!DOCTYPE html>\n <html lang=\"en\">\n   <head>\n     <meta charset=\"UTF-8\" />\n-    <link rel=\"icon\" href=\"./favicon.ico\" />\n+    <link rel=\"icon\" href=\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>\n     <title>David Aasa</title>\n     <script type=\"module\" crossorigin src=\"./assets/index.8e6150f5.js\"></script>\n"
+                },
+                {
+                    "date": 1664069342683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <!DOCTYPE html>\n <html lang=\"en\">\n   <head>\n     <meta charset=\"UTF-8\" />\n-    <link rel=\"icon\" href=\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>\" />\n+    <link rel=\"icon\" href=\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>\n     <title>David Aasa</title>\n     <script type=\"module\" crossorigin src=\"./assets/index.8e6150f5.js\"></script>\n"
                 }
             ],
             "date": 1663466525290,

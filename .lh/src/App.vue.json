@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 284,
+            "activePatchIndex": 289,
             "patches": [
                 {
                     "date": 1660508975950,
@@ -1144,6 +1144,26 @@
                 {
                     "date": 1662417738072,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n   <div class=\"col-md-5 p-lg-5 w-100 text-white\" id=\"home\" style=\"background-color:#1e1e1e;\" tabindex=\"0\">\n     <IntroPage/>\n   </div>\n   <div class=\"row g-0 flex-md-row shadow-sm h-md-300 position-relative p-lg-5 text-white\" style=\"background-color:#1e1e1e\" id=\"about\" tabindex=\"1\">\n-    <div class=\"py-5\" style=\"background-color:#1e1e1e;\"></div>  \n+    <div class=\"py-3\" style=\"background-color:#1e1e1e;\"></div>  \n     <AboutPage/>\n   </div>\n   <div class=\"col-md-5 p-lg-5 w-auto text-white justify-content-center\" style=\"background-color:#1e1e1e\" id=\"portofilo\" tabindex=\"2\">\n     <div class=\"row g-0 overflow-hidden flex-md-row row d-flex justify-content-center p-lg-5\">\n"
+                },
+                {
+                    "date": 1664070234996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,25 +1,11 @@\n <script setup>\n   import HeaderView from './components/Header.vue';\n   import ContactPage from './components/ContactPage.vue';\n-\n-  import GithubIcon from './components/icons/GithubIcon.vue';\n-  import { ref, onMounted } from 'vue';\n   import ProjectPage from './components/ProjectPage.vue';\n   import LangaugePage from './components/LangaugePage.vue';\n   import IntroPage from './components/IntroPage.vue';\n   import AboutPage from './components/AboutPage.vue';\n-\n-  const count = ref(0)\n-\n-  function increment() {\n-    count.value++\n-    console.log(count.value);\n-  }\n-\n-  onMounted(() => {\n-    console.log(`The initial count is ${count.value}.`)\n-  })\n </script>\n \n <style>\n   .socialContainer{\n"
+                },
+                {
+                    "date": 1664070435624,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,8 +43,14 @@\n \n       <div class=\"col-md-5 p-lg-5 w-100 text-white justify-content-center d-block\" style=\"background-color:#1e1e1e\" id=\"contact\" tabindex=\"2\">\n       <ContactPage/>\n       </div>\n+      <Suspense>\n+    <template #default>\n+      <profile-card />\n+    </template>\n+    <template #fallback> Loading... </template>\n+  </Suspense>\n     </div>\n     <div class=\"alert\" style=\"width:fit-content\" role=\"alert\" id=\"alertContent\">\n     </div>\n   </div>\n"
+                },
+                {
+                    "date": 1664070486423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n       <ContactPage/>\n       </div>\n       <Suspense>\n     <template #default>\n-      <profile-card />\n+      <Profile-card />\n     </template>\n     <template #fallback> Loading... </template>\n   </Suspense>\n     </div>\n"
+                },
+                {
+                    "date": 1664070502469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,13 +44,13 @@\n       <div class=\"col-md-5 p-lg-5 w-100 text-white justify-content-center d-block\" style=\"background-color:#1e1e1e\" id=\"contact\" tabindex=\"2\">\n       <ContactPage/>\n       </div>\n       <Suspense>\n-    <template #default>\n-      <Profile-card />\n-    </template>\n-    <template #fallback> Loading... </template>\n-  </Suspense>\n+        <template #default>\n+          <Profile-card />\n+        </template>\n+        <template #fallback> Loading... </template>\n+      </Suspense>\n     </div>\n     <div class=\"alert\" style=\"width:fit-content\" role=\"alert\" id=\"alertContent\">\n     </div>\n   </div>\n"
+                },
+                {
+                    "date": 1664070551002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n   import ProjectPage from './components/ProjectPage.vue';\n   import LangaugePage from './components/LangaugePage.vue';\n   import IntroPage from './components/IntroPage.vue';\n   import AboutPage from './components/AboutPage.vue';\n+import ProfileCard from './components/ProjectViews/Profile-card.vue';\n </script>\n \n <style>\n   .socialContainer{\n@@ -45,9 +46,9 @@\n       <ContactPage/>\n       </div>\n       <Suspense>\n         <template #default>\n-          <Profile-card />\n+          <ProfileCard />\n         </template>\n         <template #fallback> Loading... </template>\n       </Suspense>\n     </div>\n"
                 }
             ],
             "date": 1660508975950,
