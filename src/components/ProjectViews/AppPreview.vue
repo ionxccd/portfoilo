@@ -1,6 +1,5 @@
 <script>
     import axios from 'axios';
-    import.meta.env;
   
     export default {
         props: ['appData'],
@@ -14,7 +13,7 @@
               method: 'GET',
               url: 'https://google-playstore-api.p.rapidapi.com/getApp/' + vm.appData,
               headers: {
-                'X-RapidAPI-Key':import.meta.env.VITE_APP_KEY,
+                'X-RapidAPI-Key':process.env.VITE_APP_KEY,
                 'X-RapidAPI-Host': 'google-playstore-api.p.rapidapi.com'
               }
             };
