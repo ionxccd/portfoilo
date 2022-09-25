@@ -13,7 +13,7 @@
                 method: 'GET',
                 url: 'https://rapid-api5.p.rapidapi.com/getApi/' + vm.username + '/' + vm.apiName,
                 headers: {
-                    'X-RapidAPI-Key': import.meta.env.VITE_API_KEY,
+                    'X-RapidAPI-Key': process.env.VITE_API_KEY,
                     'X-RapidAPI-Host': 'rapid-api5.p.rapidapi.com'
                 }
             };
